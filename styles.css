@@ -45,16 +45,18 @@ header h2 {
 }
 
 nav.floating-index {
-    position: fixed;
-    top: 100px; /* Adjust based on header height */
-    left: 20px;
+    position: sticky;
+    top: 10px; /* Distance from the top of the viewport before sticking */
+    left: 0; /* Align with the left side */
     background-color: #fff;
     border: 1px solid #0073e6;
     border-radius: 5px;
     padding: 15px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     z-index: 1000;
+    max-width: 200px; /* Optional: Prevent it from taking too much space */
 }
+
 
 nav.floating-index h3 {
     margin: 0 0 10px;
