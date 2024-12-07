@@ -94,7 +94,7 @@ nav.floating-index a:hover {
 }
 
 main {
-    margin-left: 260px; /* Adjusted for floating index width */
+    margin-left: 300px; /* Adjusted for floating index width */
     padding: 20px;
     margin-top: 100px; /* Adjusted to start below the floating index */
 }
