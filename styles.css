@@ -57,7 +57,7 @@ header img {
 nav.floating-index {
     position: fixed;
     top: 100px;
-    left: 20px;
+    left: 0px;
     background-color: #fff;
     border: 1px solid #005f73;
     border-radius: 8px;
