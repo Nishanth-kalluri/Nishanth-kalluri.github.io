@@ -34,15 +34,15 @@ header h1 {
     padding: 20px;
     background: #ffffff;
     border-radius: 8px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Removed double shadow */
     animation: fadeInUp 1.5s ease-in-out;
 }
 
 .intro-content img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    border: 3px solid #005f73;
+    width: 300px; /* Enlarged the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 15px; /* Changed to rectangle with rounded corners */
+    border: 4px solid #005f73;
     margin-left: 20px;
 }
 
@@ -89,12 +89,18 @@ section:nth-child(odd) {
     animation-delay: 0.4s;
 }
 
+main {
+    margin-left: 200px; /* Content now starts to the right of the floating index */
+}
+
 /* Footer */
 footer {
     text-align: center;
     background-color: #005f73;
     color: white;
     padding: 10px 0;
+    margin-bottom: 0; /* Removed the gap below the footer */
+    position: relative;
 }
 
 /* Keyframes */
