@@ -1,10 +1,12 @@
 import type { NextConfig } from "next";
 
+const isProd = process.env.NODE_ENV === "production";
+
 const nextConfig: NextConfig = {
-  output: "export", // Enables static HTML export
+  output: isProd ? "export" : undefined, // Enable static export only for production
   trailingSlash: true, // Adds trailing slashes to paths
-  assetPrefix: "/Nishanth-kalluri.github.io/", // Use the repository name
-  basePath: "/Nishanth-kalluri.github.io", // Set the base path to match GitHub Pages' structure
+  assetPrefix: isProd ? "/Nishanth-kalluri.github.io/" : undefined, // Use the repository name in production
+  basePath: isProd ? "/Nishanth-kalluri.github.io" : undefined, // Set the base path only for production
 };
 
 export default nextConfig;
