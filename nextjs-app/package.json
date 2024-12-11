@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "deploy": "gh-pages -d out",
-    "export": "next export"
+    "export": "next export",
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
   },
   "dependencies": {
     "next": "15.0.4",

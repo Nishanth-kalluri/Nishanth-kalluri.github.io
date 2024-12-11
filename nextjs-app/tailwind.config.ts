@@ -5,6 +5,7 @@ const config: Config = {
     "./src/app/components/**/*.{js,ts,jsx,tsx,mdx}", // Scans all files in components
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}", // Scans all files in app
     "./src/**/*.{js,ts,jsx,tsx,mdx}", // Scans all other files in src
+    "./src/app/page.tsx",
   ],
   theme: {
     extend: {
