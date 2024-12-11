@@ -1,3 +1,5 @@
+import '../globals.css';
+
 const Footer = () => {
   return (
     <footer className="bg-white dark:bg-gray-800 py-4 mt-8">
