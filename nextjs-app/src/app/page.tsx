@@ -7,43 +7,37 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gray-100 dark:bg-gray-900 font-sans">
       <Header />
-      <main className="container mx-auto py-8">
+      <main className="container mx-auto py-40">
         
         {/* About Me Section */}
         <Section
           id="introduction"
           title="About Me"
-          className="py-8 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white rounded-lg shadow-md fade-in"
+          className="py-12 px-4 md:px-8 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-lg fade-in"
         >
-          <p>
-            Nishanth Kalluri<br />
-            Hartford, USA<br />
-            kallurinishanth0@gmail.com<br />
-            +1 9592064468<br />
-            <a
-              href="https://www.linkedin.com/in/nishanth-kalluri/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline text-blue-300 hover:text-blue-500 transition duration-300"
-            >
-              LinkedIn
-            </a>
-          </p>
+          <ul className="space-y-6">
+            <li className="transition-all duration-300 hover:scale-105 hover:shadow-xl">
+              Nishanth Kalluri<br />
+              Hartford, USA<br />
+              kallurinishanth0@gmail.com<br />
+              +1 9592064468<br />
+            </li>
+          </ul>
         </Section>
 
         {/* Education Section */}
         <Section
           id="education"
           title="Education"
-          className="py-8 bg-white text-gray-800 dark:text-gray-300 shadow-md rounded-lg fade-in"
+          className="py-12 px-4 md:px-8 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-lg fade-in"
         >
-          <ul className="space-y-4">
-            <li>
+          <ul className="space-y-6">
+            <li className="transition-all duration-300 hover:scale-105 hover:shadow-xl">
               <strong>University of Connecticut, Connecticut, USA</strong><br />
               Master of Science, Data Science. Minor in Statistics. 2024-2025<br />
               Relevant Coursework: Statistical Modelling, Generative AI, Data Visualization, Time series Analysis, Machine Learning.
             </li>
-            <li>
+            <li className="transition-all duration-300 hover:scale-105 hover:shadow-xl">
               <strong>National Institute of Technology Warangal, Warangal</strong><br />
               Bachelor of Technology, Electronics and Communication Engineering. 2019-2023
             </li>
@@ -81,17 +75,17 @@ export default function Home() {
         <Section
           id="projects"
           title="Academic Projects"
-          className="py-8 bg-white text-gray-800 dark:text-gray-300 shadow-md rounded-lg fade-in"
+          className="py-12 px-4 md:px-8 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-lg fade-in"
         >
           <ul className="space-y-6">
-            <li>
+            <li className="transition-all duration-300 hover:scale-105 hover:shadow-xl">
               <strong>HUMAN KNEE ABNORMALITY IDENTIFICATION USING SEMG AND XGBOOST</strong><br />
               Supervisor - Dr. Md Farukh Hashmi, ASSISTANT PROFESSOR, ECE, NITW<br />
               - Applied XGBoost and decision tree algorithms, achieving a 96% classification accuracy in detecting abnormal knee conditions, establishing a foundation for diagnostic tools.<br />
               - Optimized medical data processing by reducing dimensionality from 60 to 11 through PCA, enhancing model performance by 20%.<br />
               - Delivered 96% detection accuracy, demonstrating real-world potential for early diagnosis and patient care improvement.
             </li>
-            <li>
+            <li className="transition-all duration-300 hover:scale-105 hover:shadow-xl">
               <strong>GAN-BASED VOLATILITY TREND CLASSIFICATION FOR FINANCIAL TIME SERIES</strong><br />
               <em>April 2024 - Present</em><br />
               <ul className="list-disc ml-6">
@@ -106,13 +100,13 @@ export default function Home() {
         <Section
           id="skills"
           title="Skills"
-          className="py-8 bg-gradient-to-r from-teal-400 via-blue-500 to-purple-600 text-white rounded-lg shadow-lg fade-in"
+          className="py-12 px-4 md:px-8 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-lg fade-in"
         >
-          <p>
-            <strong>Programming:</strong> Python, R, SQL, NoSQL, Java, C++, TensorFlow, PyTorch, Scikit-learn, Hadoop, MongoDB.<br />
-            <strong>Tools:</strong> Jupyter, Tableau, AWS, Docker, Kubernetes, Git, Apache Kafka, Airflow, Monte Carlo Simulations.<br />
-            <strong>Expertise:</strong> Statistical Modeling, Machine Learning, Deep Learning, NLP, Time Series Analysis, Predictive Analytics.
-          </p>
+          <ul className="space-y-6">
+            <li><strong className="transition-all duration-300 hover:scale-105 hover:shadow-xl">Programming:</strong> Python, R, SQL, NoSQL, Java, C++, TensorFlow, PyTorch, Scikit-learn, Hadoop, MongoDB.<br /></li>
+            <li><strong className="transition-all duration-300 hover:scale-105 hover:shadow-xl">Tools:</strong> Jupyter, Tableau, AWS, Docker, Kubernetes, Git, Apache Kafka, Airflow, Monte Carlo Simulations.<br /></li>
+            <li><strong className="transition-all duration-300 hover:scale-105 hover:shadow-xl">Expertise:</strong> Statistical Modeling, Machine Learning, Deep Learning, NLP, Time Series Analysis, Predictive Analytics.</li>
+          </ul>
         </Section>
       </main>
       <Footer />
