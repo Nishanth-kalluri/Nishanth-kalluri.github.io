@@ -176,6 +176,9 @@ nav a:hover::after {
   animation: fadeIn 1.5s forwards;
 }
 
+#list{
+  flex-direction: row;
+}
 img {
   transition: transform 0.3s ease;
 }

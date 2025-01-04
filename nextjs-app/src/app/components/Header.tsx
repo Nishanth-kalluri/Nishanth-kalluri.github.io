@@ -15,7 +15,7 @@ const Header = () => {
                 href="#introduction"
                 className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition duration-300"
               >
-                Introduction
+                About Me
               </Link>
             </li>
             <li>
