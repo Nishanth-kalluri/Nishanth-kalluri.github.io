@@ -53,17 +53,32 @@ export default function Home() {
           className="py-12 px-4 md:px-8 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-lg fade-in"
         >
           <ul className="space-y-6">
-            <li className="transition-all duration-300 hover:scale-105 hover:shadow-xl">
-              <strong>University of Connecticut, Connecticut, USA</strong><br />
-              Master of Science, Data Science. Minor in Statistics.<br />
-              Relevant Coursework: Machine Learning, Data Mining, Statistics for Data Science, Generative AI, Data Visualization, Time Series Analysis, Statistical Modelling, Data Analytics, Deep Learning.
-              </li>
-            <li className="transition-all duration-300 hover:scale-105 hover:shadow-xl">
-              <strong>National Institute of Technology Warangal, Warangal</strong><br />
-              Bachelor of Technology, Electronics and Communication Engineering.<br />
-              Relevant Coursework: Object Oriented Programming - OOPS, Operating Systems - OS, Real Time Operating Systems - RTOS, Database Management System - DBMS, Data Structures and Algorithms - DSA, Problem-Solving with Computer Programming - PSCP.
-            </li>
-          </ul>
+  <li className="transition-all duration-300 hover:scale-105 hover:shadow-xl flex items-start" id="list">
+    <div className="flex-1">
+      <strong>University of Connecticut, Connecticut, USA</strong><br />
+      Master of Science, Data Science. Minor in Statistics.<br />
+      Relevant Coursework: Machine Learning, Data Mining, Statistics for Data Science, Generative AI, Data Visualization, Time Series Analysis, Statistical Modelling, Data Analytics, Deep Learning.
+    </div>
+    <img
+      src="/uconn-logo.png"
+      alt="University of Connecticut Logo"
+      className="h-20 w-20 ml-4"
+    />
+  </li>
+  <li className="transition-all duration-300 hover:scale-105 hover:shadow-xl flex items-start" id="list">
+    <div className="flex-1">
+      <strong>National Institute of Technology Warangal, Warangal</strong><br />
+      Bachelor of Technology, Electronics and Communication Engineering.<br />
+      Relevant Coursework: Object Oriented Programming - OOPS, Operating Systems - OS, Real Time Operating Systems - RTOS, Database Management System - DBMS, Data Structures and Algorithms - DSA, Problem-Solving with Computer Programming - PSCP.
+    </div>
+    <img
+      src="/nitw-logo.png"
+      alt="NIT Warangal Logo"
+      className="h-20 w-20 ml-4"
+    />
+  </li>
+</ul>
+
         </Section>
 
         {/* Work Experience Section */}
@@ -153,6 +168,64 @@ export default function Home() {
             <li><strong className="transition-all duration-300 hover:scale-105 hover:shadow-xl">Expertise:</strong> Statistical Modeling, Machine Learning, Deep Learning, NLP, Time Series Analysis, Predictive Analytics.</li>
           </ul>
         </Section>
+        {/* Contact me Section */}
+        <Section
+  id="contact"
+  title="Contact Me"
+  className="py-12 px-4 md:px-8 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-lg fade-in"
+>
+  <ul className="space-y-6">
+    <li>
+      <strong className="transition-all duration-300 hover:scale-105 hover:shadow-xl">
+        LinkedIn:
+      </strong>{" "}
+      <a
+        href="https://www.linkedin.com/in/nishanth-kalluri-74047919a/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-600 dark:text-blue-400 hover:underline"
+      >
+        linkedin.com/in/your-profile
+      </a>
+    </li>
+    <li>
+      <strong className="transition-all duration-300 hover:scale-105 hover:shadow-xl">
+        Gmail:
+      </strong>{" "}
+      <a
+        href="mailto:jyv24003@uconn.edu"
+        className="text-blue-600 dark:text-blue-400 hover:underline"
+      >
+        jyv24003@uconn.edu
+      </a>
+    </li>
+    <li>
+      <strong className="transition-all duration-300 hover:scale-105 hover:shadow-xl">
+        GitHub:
+      </strong>{" "}
+      <a
+        href="https://github.com/Nishanth-kalluri "
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-600 dark:text-blue-400 hover:underline"
+      >
+        github.com/your-github-username
+      </a>
+    </li>
+    <li>
+      <strong className="transition-all duration-300 hover:scale-105 hover:shadow-xl">
+        Phone:
+      </strong>{" "}
+      <a
+        href="tel:+19592064468"
+        className="text-blue-600 dark:text-blue-400 hover:underline"
+      >
+        +1 (959) 206-4468
+      </a>
+    </li>
+  </ul>
+</Section>
+
       </main>
       <Footer />
     </div>
