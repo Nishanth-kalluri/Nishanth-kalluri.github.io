@@ -185,7 +185,7 @@ export default function Home() {
         rel="noopener noreferrer"
         className="text-blue-600 dark:text-blue-400 hover:underline"
       >
-        linkedin.com/in/your-profile
+        linkedin.com/in/nishanth-kalluri-74047919a/
       </a>
     </li>
     <li>
@@ -209,7 +209,7 @@ export default function Home() {
         rel="noopener noreferrer"
         className="text-blue-600 dark:text-blue-400 hover:underline"
       >
-        github.com/your-github-username
+        github.com/Nishanth-kalluri
       </a>
     </li>
     <li>
