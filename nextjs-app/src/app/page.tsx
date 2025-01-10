@@ -163,7 +163,7 @@ export default function Home() {
           className="py-12 px-4 md:px-8 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-lg fade-in"
         >
           <ul className="space-y-6">
-            <li><strong className="transition-all duration-300 hover:scale-105 hover:shadow-xl">Programming:</strong> Python, R, SQL, NoSQL, Java, C++, TensorFlow, PyTorch, Scikit-learn, Hadoop, MongoDB.<br /></li>
+            <li><strong className="transition-all duration-300 hover:scale-105 hover:shadow-xl">Programming:</strong> C++, Java, Python, R, NoSQL, SQL, MongoDB, XML, JavaScript, HTML, CSS, React, TypeScript.<br /></li>
             <li><strong className="transition-all duration-300 hover:scale-105 hover:shadow-xl">Tools:</strong> Jupyter, Tableau, AWS, Docker, Kubernetes, Git, Apache Kafka, Airflow, Monte Carlo Simulations.<br /></li>
             <li><strong className="transition-all duration-300 hover:scale-105 hover:shadow-xl">Expertise:</strong> Statistical Modeling, Machine Learning, Deep Learning, NLP, Time Series Analysis, Predictive Analytics.</li>
           </ul>
